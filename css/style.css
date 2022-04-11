@@ -1,29 +1,24 @@
 /*----------------
     TYPOGRAPHY
 -----------------*/
-header {
+body {
     color: white;
     font-size: 1.2em;
-    text-transform: uppercase;
     font-weight: 700;
 }
 
 h1,h2,h3,h4 {
     text-transform: uppercase;
+    color: black;
 }
 
 /*----------------
-    HEADER
+    DEBUG
 -----------------*/
 header {
     background-color: violet;
-    padding: 30px 0;
 }
 
-/*----------------
-    MAIN
------------------*/
-/* HERO */
 .hero {
     height: 500px;
     background-color: rgb(146, 130, 238);
@@ -31,5 +26,14 @@ header {
 
 [class*=col-] {
     background-color: aqua;
-    height: 400px;
+    border: 1px solid black;
+    /* height: 400px; */
+}
+
+.about {
+    background-color: violet;
+}
+
+footer {
+    background-color: rgb(162, 130, 238);
 }
