@@ -17,7 +17,7 @@
     </head>
     <body>
 
-        <header>
+        <header class="first_color">
 
             <div class="container">
 
@@ -55,13 +55,18 @@
 
         <main>
 
-            <section class="hero mb-5">   <!-- HERO -->
+            <section class="hero mb-5 second_color">   <!-- HERO -->
 
                 <div class="hero_box py-5">
                     <div class="propic_box my-2">
                         <img src="img/avatar.svg" alt="immagine del profilo">
                     </div>
                     <h1 class="text-center">start bootstrap</h1>
+                    <div class="divider d-flex align-items-center justify-content-center gap-4 my-2">
+                        <div class="small_rule_white"></div>
+                        <div class="star_icon_white"><i class="fa-solid fa-star"></i></div>
+                        <div class="small_rule_white"></div>
+                    </div>
                     <h2>graphic artist - web designer - illustrator</h2>
                 </div>
 
@@ -72,6 +77,12 @@
                 <div class="container overflow-hidden text-center">
                     
                     <h2>portfolio</h2>
+
+                    <div class="divider d-flex align-items-center justify-content-center gap-4 my-2">
+                        <div class="small_rule_black"></div>
+                        <div class="star_icon_black"><i class="fa-solid fa-star"></i></div>
+                        <div class="small_rule_black"></div>
+                    </div>
 
                     <div class="row g-4">
                         <div class="col-12 col-md-6 col-lg-4">
@@ -98,12 +109,19 @@
 
             </section>
 
-            <section class="about my-5 p-5"> <!-- ABOUT-->
+            <section class="about my-5 p-5 second_color"> <!-- ABOUT-->
 
                 <div class="container">
                     <div class="wrapper-small">
                         <div class="row">
-                            <h2 class="text-center my-4">about</h2>
+                            <h2 class="text-center">about</h2>
+
+                            <div class="divider d-flex align-items-center justify-content-center gap-4 my-2">
+                                <div class="small_rule_white"></div>
+                                <div class="star_icon_white"><i class="fa-solid fa-star"></i></div>
+                                <div class="small_rule_white"></div>
+                            </div>
+
                             <div class="col-12 col-md-6 text-left">
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos praesentium mollitia delectus magni placeat perferendis facilis aperiam pariatur labore rem aspernatur, ipsum assumenda illum laboriosam officia hic eius sed quae?
@@ -125,7 +143,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-12 text-center p-5">
-                            <h3 class="my-4">Contact me</h3>
+                            <h3>Contact me</h3>
+
+                            <div class="divider d-flex align-items-center justify-content-center gap-4 my-2">
+                                <div class="small_rule_black"></div>
+                                <div class="star_icon_black"><i class="fa-solid fa-star"></i></div>
+                                <div class="small_rule_black"></div>
+                            </div>
 
                             <form>
                                 <div class="mb-3">
@@ -148,7 +172,7 @@
                                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                                     </div>
 
-                                    <button type="submit" class="d-flex btn btn-primary">Send</button>
+                                    <button type="submit" class="d-flex btn second_color">Send</button>
                               </form>
                               
                         </div>
@@ -161,27 +185,29 @@
 
         <footer>
 
-            <div class="container">
+            <div class="footer-top third_color">
+                <div class="container">
 
-                <div class="row py-5">
-                    <div class="col-12 col-md-4 text-center px-5">
-                        <h3>Location</h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </div>
-                    <div class="col-12 col-md-4 text-center px-5">
-                        <h3>around the web</h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </div>
-                    <div class="col-12 col-md-4 text-center px-5">
-                        <h3>about freelancer</h3>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </div>
+                    <div class="row py-5">
+                        <div class="col-12 col-md-4 text-center px-5">
+                            <h3>Location</h3>
+                            2215 John Daniel Drive Clark, MOE1912
+                        </div>
+                        <div class="col-12 col-md-4 text-center px-5">
+                            <h3>around the web</h3>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        </div>
+                        <div class="col-12 col-md-4 text-center px-5">
+                            <h3>about freelancer</h3>
+                            Freelance is a free to use, open source Rootstran theme created by Start Bootstrap
+                        </div>
 
-                    <div class="footer-bottom text-center py-5">
-                        Copyright 2019
                     </div>
-
                 </div>
+            </div>
+
+            <div class="footer-bottom text-center py-5 first_color">
+                Copyright 2019
             </div>
 
         </footer>

@@ -22,6 +22,46 @@ img {
     max-width: 1000px;
     margin: auto;
 }
+
+.small_rule_white {
+    width: 120px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: white;
+}
+
+.star_icon_white {
+    font-size: 1.3em;
+    color: white;
+}
+
+.small_rule_black {
+    width: 120px;
+    height: 3px;
+    border-radius: 3px;
+    background-color: black;
+}
+
+.star_icon_black {
+    font-size: 1.3em;
+    color: black;
+}
+
+/*----------------
+    COLORS
+-----------------*/
+.first_color {
+    background-color: #2c3e50;
+}
+
+.second_color {
+    background-color: #1abc9c;
+}
+
+.third_color {
+    background-color: #3a546d;
+}
+
 /*----------------
     BUTTONS
 -----------------*/
@@ -31,13 +71,19 @@ button {
     color: white;
 }
 
+.contact button {
+    color: white;
+}
 /*----------------
     TYPOGRAPHY
 -----------------*/
 body {
     color: white;
     font-size: 1.2em;
-    font-weight: 700;
+}
+
+header {
+    font-weight: 600;
 }
 
 h1,h2,h3,h4 {
@@ -46,16 +92,8 @@ h1,h2,h3,h4 {
 }
 
 /*----------------
-    DEBUG
+    HEADER
 -----------------*/
-header {
-    background-color: violet;
-}
-
-.contact {
-    /* background-color: lightpink; */
-}
-
 header nav ul {
     display: flex;
     margin-bottom: 0;
@@ -63,30 +101,6 @@ header nav ul {
     text-transform: uppercase;
     justify-content: flex-end;
 }
-
-.hero {
-    /* height: 500px; */
-    background-color: rgb(146, 130, 238);
-}
-
-/* [class*=col-] {
-    background-color: aqua;
-    border: 1px solid black; */
-    /* height: 400px; */
-}
-
-.about {
-    background-color: violet;
-}
-
-footer {
-    background-color: rgb(162, 130, 238);
-}
-
-/*----------------
-    HEADER
------------------*/
-
 
 /*----------------
     HERO
@@ -128,10 +142,6 @@ footer {
 /*----------------
     ABOUT
 -----------------*/
-.about {
-    background-color: lightcoral;
-}
-
 .about h2 {
     font-size: 2.2em;
     color: white;
