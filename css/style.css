@@ -6,6 +6,14 @@ a {
     color: inherit;
 }
 
+img {
+    width: 100%;
+}
+
+.wrapper-small {
+    max-width: 1000px;
+    margin: auto;
+}
 /*----------------
     BUTTONS
 -----------------*/
@@ -41,9 +49,9 @@ header {
     background-color: rgb(146, 130, 238);
 }
 
-[class*=col-] {
+/* [class*=col-] {
     background-color: aqua;
-    border: 1px solid black;
+    border: 1px solid black; */
     /* height: 400px; */
 }
 
@@ -76,7 +84,29 @@ footer {
 }
 
 .hero h2 {
-    font-size: 1.2em;
+    font-size: 1.1em;
     color: white;
 }
 
+/*----------------
+    PORTFOLIO
+-----------------*/
+.portfolio img {
+    border-radius: 10px;
+}
+
+.portfolio h2 {
+    font-size: 2.2em;
+}
+
+/*----------------
+    ABOUT
+-----------------*/
+.about {
+    background-color: lightcoral;
+}
+
+.about h2 {
+    font-size: 2.2em;
+    color: white;
+}
