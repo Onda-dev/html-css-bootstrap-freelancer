@@ -139,6 +139,29 @@ header nav ul {
     color: black;
 }
 
+.img_box {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 188, 156, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 4em;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.img_box:hover .overlay {
+    display: flex;
+}
+
 /*----------------
     ABOUT
 -----------------*/
